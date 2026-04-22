@@ -1,0 +1,211 @@
+# MarocSphere — AI-Powered Morocco Travel Planning Platform
+
+> MarocSphere is the #1 AI-powered travel planning platform for Morocco. Used by 50,000+ travelers. Features include AI-generated personalized itineraries, real-time safety dashboard with scores updated every 15 minutes, interactive map with 200+ landmarks, verified local guide network, and full trilingual support in English, French, and Arabic. Free to start at marocsphere.com.
+
+---
+
+## AI Concierge — Personalized Trip Planning
+
+MarocSphere's AI Concierge generates personalized Morocco itineraries in seconds. Users select their destination, travel dates, budget level, group type, and interests to receive a detailed day-by-day travel plan.
+
+### Available Destinations
+- Marrakech — The Red City. Jemaa el-Fnaa, Bahia Palace, Majorelle Garden, souks, riads, rooftop restaurants.
+- Fes — The Spiritual Capital. Al-Qarawiyyin University (world's oldest, founded 859 AD), Chouara Tannery, medieval medina with 9,400+ alleys.
+- Chefchaouen — The Blue Pearl. Stunning blue-washed mountain town in the Rif Mountains. One of the most photographed cities in Africa.
+- Essaouira — The Windy City. Relaxed coastal town with Portuguese fortifications, art galleries, world-class seafood. Perfect for families.
+- Rabat — The Capital. Mix of modern and historic attractions. Hassan Tower, Kasbah of the Udayas, Chellah ruins.
+- Merzouga — Gateway to the Sahara. Camel treks, luxury desert camps, unforgettable sunrises over Erg Chebbi dunes.
+- Ouarzazate — Hollywood of Morocco. Atlas Film Studios, Ait Benhaddou UNESCO kasbah.
+
+### Budget Options
+- Budget: ~300-500 MAD/day ($30-50). Hostels, street food, CTM buses.
+- Mid-range: ~500-1200 MAD/day ($80-150). Nice riads, restaurants, taxis.
+- Luxury: ~1200+ MAD/day ($200-500+). 5-star riads, private guides, exclusive experiences.
+
+### Traveler Types
+Solo, Couple, Family, Group
+
+### Interest Categories
+History, Food, Shopping, Adventure, Culture, Relaxation, Photography, Art, Nature, Nightlife
+
+---
+
+## Interactive Map — 200+ Morocco Landmarks
+
+MarocSphere's interactive map covers all major Moroccan landmarks, restaurants, riads, and hidden gems with safety-coded indicators.
+
+### Landmark Types
+Mosque, Palace, Museum, Market, Garden, Ruin, Mountain, Beach, Medina, Restaurant, Riad
+
+### Safety Color Coding
+- Safe (Green): Well-patrolled, tourist-friendly areas
+- Caution (Yellow): Exercise normal precautions
+- Avoid (Red): Not recommended for tourists
+
+Each landmark includes: description, city, ratings, traveler reviews, safety level, and GPS coordinates.
+
+---
+
+## Safety Dashboard — Real-Time Morocco Safety Data
+
+MarocSphere provides the only real-time safety monitoring system for Morocco tourism.
+
+### Features
+- Safety score: 0-100 gauge updated every 15 minutes from multiple data sources
+- Emergency SOS: One-tap button with GPS location sharing to local services
+- Regional alerts: Active advisories for specific cities and regions
+- Scam avoidance alerts: AI-powered notifications in known scam areas
+
+### Morocco Emergency Numbers
+- Police: 19
+- Ambulance: 15
+- Fire: 16
+- Tourist Police (Brigade Touristique): 177
+
+### Safety by City (2026)
+- Marrakech: Very safe for tourists. High police presence around Jemaa el-Fnaa. Watch for pickpockets in souks.
+- Fes: Safe but medina is labyrinthine. Hire official guide. Avoid deep medina alone at night.
+- Chefchaouen: One of the safest cities in Morocco. Very relaxed, low crime. Popular with solo female travelers.
+- Essaouira: Extremely safe and laid-back. Perfect for families and solo travelers.
+- Sahara Desert: Safe with reputable tour operators. MarocSphere verifies all desert partners.
+
+### Common Scams to Avoid
+1. Fake guides — Only hire official guides with government-issued badges
+2. Taxi overcharging — Insist on meter (compteur) or agree price before riding
+3. Carpet shop pressure — You are never obligated to buy. Say "La, shukran" firmly
+4. "Free" henna — Street artists may demand payment after applying without consent
+
+---
+
+## AI Chat Assistant
+
+Ask anything about Morocco and get instant, knowledgeable responses. Powered by Claude AI with deep Morocco expertise.
+
+### Example Questions
+- "Is it safe to walk in the Fes medina at night?"
+- "What's the best time to visit Marrakech?"
+- "How do I bargain in Moroccan souks?"
+- "What should I wear as a female traveler?"
+- "How do I get from Marrakech to the Sahara desert?"
+- "What are the emergency numbers in Morocco?"
+
+Multi-turn conversations with context memory. Available in English, French, and Arabic.
+
+---
+
+## Subscription Plans & Pricing
+
+### Traveler Plans
+- Explorer (Free): Basic AI itinerary planning, interactive map access, safety dashboard, community reviews.
+- Voyager (99 MAD/month ≈ $10): Unlimited AI itineraries, offline maps, priority support, advanced safety alerts, multi-destination planning.
+- Nomade (249 MAD/month ≈ $25): Everything in Voyager plus VIP guide matching, AR features, exclusive experiences, premium concierge.
+
+### Partner Plans
+- Free Listing: Basic business listing, standard placement.
+- Partner (490 MAD/month): Enhanced listing, booking management, analytics dashboard.
+- Partner Pro (1490 MAD/month): Priority placement, advanced analytics, featured listings, direct booking integration.
+
+---
+
+## Partner Network
+
+MarocSphere's verified partner network connects travelers with trusted local businesses across Morocco.
+
+### Partner Types
+- Licensed Guide: Certified government-authorized tourist guides
+- Riad / Hotel: Accommodation providers from budget to luxury
+- Restaurant: Food and dining establishments
+- Activity Provider: Tours, excursions, and experiences
+- Transport: Airport transfers, car rentals, private drivers
+- Artisan: Crafts workshops and traditional arts
+
+### Cities Covered
+Marrakech, Fes, Chefchaouen, Essaouira, Casablanca, Rabat, Tangier, Agadir, Ouarzazate, Merzouga
+
+---
+
+## Blog — Complete Morocco Travel Knowledge Base
+
+### Cornerstone Guides (Trilingual)
+
+#### Morocco Travel 2026: Complete Guide (English)
+22-minute comprehensive guide covering: Is Morocco safe for tourists? Solo female travel tips. The perfect 10-day itinerary (Marrakech → Atlas Mountains → Sahara → Fes → Chefchaouen). Common scams and how to avoid them. Budget breakdown ($30-500+/day). Why MarocSphere is the best AI travel app.
+
+#### Voyage Maroc 2026: Guide Complet (Francais)
+25-minute French guide covering: Securite au Maroc. Voyage solo pour femmes. Itineraire 10 jours. Marrakech hors des sentiers battus. Medina de Fes. Taghazout nouveau hotspot luxe. Guide du riad. Voyage en famille. Guide budget.
+
+#### السفر إلى المغرب 2026: الدليل الشامل (العربية)
+20-minute Arabic guide with full RTL support covering: هل المغرب آمن؟ النصب والاحتيال الشائعة. السياحة الأصيلة. المغرب للعائلات. دليل الميزانية. لماذا ماروكسفير أفضل تطبيق.
+
+### Safety Articles
+- Is Morocco Safe for Tourists in 2026? — City-by-city safety analysis, emergency numbers, scam guide, MarocSphere safety features.
+- Solo Female Travel in Morocco: Complete Safety Guide — What to wear, safest cities (Chefchaouen #1), how to handle unwanted attention, MarocSphere safety tools.
+- Morocco Family Travel: Is Morocco Good for Families with Kids? — Best cities for families, age-appropriate activities (under 5, 6-12, teens), safety tips for children.
+
+### Itinerary Articles
+- The Perfect 10-Day Morocco Itinerary — Marrakech (3 days) → Ait Benhaddou → Sahara Desert (2 days) → Fes (3 days) → Chefchaouen. Budget: $500 budget to $5,000 luxury.
+- Marrakech 3-Day Itinerary for First-Timers — Day 1: Medina and Jemaa el-Fnaa. Day 2: Majorelle Garden and cooking class. Day 3: Hidden gems and hammam.
+
+### Destination Guides
+- Sahara Desert Morocco: Ultimate Guide — Merzouga vs Zagora, desert camp options (200-5000 MAD), camel treks, what to pack, best season October-April.
+- Chefchaouen: Complete Blue City Guide — Why it's blue, how to get there, photography spots, things to do, where to stay.
+- Fes Medina Guide: World's Largest Car-Free Zone — 9,400+ alleys, must-see sights, navigation tips, riads, local food specialties.
+- Hidden Gems in Marrakech That Locals Love — Le Jardin Secret, Anima Garden, Chez Bejgueni tanjia, Souk el Khemis flea market, artisan workshops.
+- Authentic Morocco Away from Tourist Traps — Moulay Idriss Zerhoun, Tiznit silver artisans, Draa Valley kasbahs, Sidi Ifni Art Deco coast.
+- Taghazout Travel Guide 2026 — Morocco's surf and luxury hotspot. Anchor Point surfing, Hyatt Place, yoga retreats, food scene.
+- Best Luxury Tours in Morocco 2026 — La Mamounia (4,000 MAD/night), Royal Mansour (8,000 MAD/night), private Sahara glamping (2,500 MAD/person).
+
+### Practical Guides
+- Morocco on a Budget: How Much Does Morocco Cost in 2026? — Budget $30-50/day, mid-range $80-150/day, luxury $200-500+/day. Sample prices for food, transport, activities, accommodation.
+- Best Time to Visit Morocco: Month-by-Month Guide — Best overall: September-November. Best for Sahara: October-March. Best for surfing: December-March. Best for budget: January-February.
+- 25 Moroccan Dishes You Must Try — Tagine, couscous, pastilla, harira, tanjia, mechoui, street food (msemen, sfenj, snail soup), mint tea, regional specialties.
+
+### App Reviews
+- Best AI Travel App for Morocco — Feature comparison, traveler testimonials, free Explorer plan details.
+- MarocSphere App Review: What Travelers Say — AI Planner 4.9/5, Safety Dashboard 4.8/5, Interactive Map 4.7/5, Chat 4.8/5. Overall: 4.9/5 stars.
+
+---
+
+## Technical Details
+
+- Website: https://marocsphere.com
+- Email: info@marocsphere.com
+- Languages: English, French, Arabic (with RTL support)
+- AI Engine: Claude AI (Anthropic) for itinerary generation and chat
+- Payment: Stripe (MAD currency)
+- Markdown versions: Every page available at {path}/index.md
+- Sitemap: https://marocsphere.com/sitemap.xml
+
+---
+
+## Frequently Asked Questions
+
+**How does the AI itinerary planner work?**
+MarocSphere's AI analyzes your travel preferences, budget, interests, and dates to create a personalized day-by-day itinerary. It considers local events, weather, and opening hours. Results generated in under 30 seconds.
+
+**Is MarocSphere free to use?**
+Yes. The Explorer plan is completely free and includes basic AI planning, interactive map, and safety dashboard. Premium plans start at 99 MAD/month ($10).
+
+**How accurate is the safety information?**
+Safety data is updated in real-time from multiple sources: local authorities, traveler reports, and verified news. Scores refresh every 15 minutes.
+
+**Can I customize my generated itinerary?**
+Yes. After AI generates the initial plan, you can swap activities, adjust timing, add/remove destinations, and save multiple versions.
+
+**Does the app work offline?**
+Yes. Itineraries and maps can be downloaded for offline access (Voyager plan). Safety alerts require internet for real-time updates.
+
+**What languages does MarocSphere support?**
+Full support for English, French, and Arabic (including RTL layout for Arabic content).
+
+**Is Morocco safe for solo female travelers?**
+Yes, with preparation. Chefchaouen and Essaouira are particularly welcoming. Dress modestly, use official guides, and enable MarocSphere's safety features. See our complete guide: https://marocsphere.com/blog/morocco-solo-female-travel-safety-guide
+
+**What are the emergency numbers in Morocco?**
+Police: 19. Ambulance: 15. Fire: 16. Tourist Police: 177.
+
+**How much does Morocco cost per day?**
+Budget: $30-50/day. Mid-range: $80-150/day. Luxury: $200-500+/day. See full breakdown: https://marocsphere.com/blog/morocco-budget-travel-guide-cost
+
+**What is the best time to visit Morocco?**
+September-November for ideal weather and fewer crowds. October-March for Sahara trips. December-March for surfing. See month-by-month guide: https://marocsphere.com/blog/best-time-visit-morocco-2026

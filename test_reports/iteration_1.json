@@ -1,0 +1,66 @@
+{
+  "summary": "Completed comprehensive testing of MarocSphere MVP. Most features working correctly with one critical AI budget issue.",
+  
+  "backend_issues": {
+    "critical_bugs": [
+      {
+        "endpoint": "/api/itineraries/generate",
+        "issue": "OpenAI API budget exceeded - litellm.BadRequestError: Budget has been exceeded! Current cost: 0.0020050000000000003, Max budget: 0.001",
+        "impact": "Blocks AI itinerary generation completely",
+        "fix_priority": "CRITICAL"
+      }
+    ],
+    "minor_issues": [
+      {
+        "endpoint": "/api/auth/me",
+        "issue": "Authorization header not properly handled in query parameter format",
+        "impact": "Minor - user authentication works via headers",
+        "fix_priority": "LOW"
+      }
+    ]
+  },
+
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [
+      {
+        "flow": "AI Itinerary Generation",
+        "issue": "Generate button works but fails due to backend budget limits",
+        "affected_selectors": ["[data-testid='generate-btn']"],
+        "fix_priority": "CRITICAL"
+      }
+    ],
+    "design_issues": []
+  },
+
+  "passed_tests": [
+    "Landing page loads with all sections (hero, trust bar, destinations, how-it-works, features, testimonials, CTA)",
+    "Navigation works correctly between all pages",
+    "User registration and authentication flow",
+    "AI chat functionality (working with real responses)",
+    "Interactive map with Leaflet integration and landmark filtering",
+    "Safety dashboard with real-time score and emergency features", 
+    "Destinations API returns 6 destinations correctly",
+    "Landmarks API returns 12 landmarks with filtering",
+    "Safety report API with mocked score generation",
+    "Emergency SOS functionality",
+    "Form validations and interactions on Concierge page",
+    "Responsive design and mobile navigation",
+    "Footer with emergency numbers and navigation links"
+  ],
+
+  "test_report_links": ["/app/backend_test.py"],
+
+  "action_item_for_main_agent": "CRITICAL: OpenAI API budget has been exceeded for Emergent LLM key. Current cost (0.002005) exceeds max budget (0.001). This blocks AI itinerary generation and potentially AI chat. Please check/increase the budget limit or provide a new API key with higher limits.",
+
+  "updated_files": ["/app/backend_test.py"],
+
+  "success_percentage": {
+    "backend": "87% (13/15 tests passed)",
+    "frontend": "100% (all UI elements and navigation working)",
+    "integration": "90% (only AI itinerary blocked by budget)"
+  },
+
+  "should_call_test_agent_after_fix": "false",
+  "should_main_agent_test_itself": "true"
+}

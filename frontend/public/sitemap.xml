@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage - Highest Priority -->
+  <url>
+    <loc>https://marocsphere.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marocsphere.com/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marocsphere.com/?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://marocsphere.com/?lang=ar"/>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://marocsphere.com/og-image.jpg</image:loc>
+      <image:title>MarocSphere - AI Morocco Travel Planner</image:title>
+      <image:caption>Plan your perfect Morocco trip with AI-powered itineraries</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- AI Concierge - Core Feature -->
+  <url>
+    <loc>https://marocsphere.com/concierge</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marocsphere.com/concierge"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marocsphere.com/concierge?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://marocsphere.com/concierge?lang=ar"/>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Interactive Map -->
+  <url>
+    <loc>https://marocsphere.com/map</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marocsphere.com/map"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marocsphere.com/map?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://marocsphere.com/map?lang=ar"/>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Safety Dashboard -->
+  <url>
+    <loc>https://marocsphere.com/safety</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marocsphere.com/safety"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marocsphere.com/safety?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://marocsphere.com/safety?lang=ar"/>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- AI Chat -->
+  <url>
+    <loc>https://marocsphere.com/chat</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marocsphere.com/chat"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marocsphere.com/chat?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://marocsphere.com/chat?lang=ar"/>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Subscription/Pricing -->
+  <url>
+    <loc>https://marocsphere.com/subscription</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marocsphere.com/subscription"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marocsphere.com/subscription?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://marocsphere.com/subscription?lang=ar"/>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- My Trips -->
+  <url>
+    <loc>https://marocsphere.com/itineraries</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Auth Pages -->
+  <url>
+    <loc>https://marocsphere.com/auth/signin</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://marocsphere.com/auth/register</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <!-- Partner Pages -->
+  <url>
+    <loc>https://marocsphere.com/partner/register</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Destinations -->
+  <url>
+    <loc>https://marocsphere.com/destinations</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marocsphere.com/destinations"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marocsphere.com/destinations?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://marocsphere.com/destinations?lang=ar"/>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Blog -->
+  <url>
+    <loc>https://marocsphere.com/blog</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marocsphere.com/blog"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marocsphere.com/blog?lang=fr"/>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Blog Articles -->
+  <url>
+    <loc>https://marocsphere.com/blog/best-time-visit-morocco-2026</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://marocsphere.com/blog/marrakech-3-day-itinerary-first-timers</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://marocsphere.com/blog/morocco-solo-female-travel-safety-guide</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://marocsphere.com/blog/sahara-desert-morocco-complete-guide</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://marocsphere.com/blog/moroccan-food-guide-dishes-to-try</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://marocsphere.com/blog/chefchaouen-morocco-blue-city-guide</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Tier 1+2 Keyword Blog Articles (April 2026) -->
+  <url>
+    <loc>https://marocsphere.com/blog/is-morocco-safe-tourists-2026</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://marocsphere.com/blog/10-day-morocco-itinerary-2026</loc>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://marocsphere.com/blog/best-ai-travel-app-morocco-2026</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marocsphere.com/blog/authentic-morocco-experience-away-tourist-traps</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marocsphere.com/blog/morocco-luxury-tour-2026-best-experiences</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marocsphere.com/blog/marrakech-hidden-gems-locals-love</loc>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marocsphere.com/blog/taghazout-travel-guide-luxury-surf-2026</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marocsphere.com/blog/morocco-family-travel-kids-guide-2026</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marocsphere.com/blog/marocsphere-app-review-travelers-say</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Cornerstone SEO Articles (April 2026) — priority 1.0 -->
+  <url>
+    <loc>https://marocsphere.com/blog/morocco-travel-2026-complete-guide</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marocsphere.com/blog/morocco-travel-2026-complete-guide"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marocsphere.com/blog/voyage-maroc-2026-guide-complet"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://marocsphere.com/blog/travel-morocco-2026-arabic-guide"/>
+    <lastmod>2026-04-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://marocsphere.com/blog/voyage-maroc-2026-guide-complet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marocsphere.com/blog/morocco-travel-2026-complete-guide"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marocsphere.com/blog/voyage-maroc-2026-guide-complet"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://marocsphere.com/blog/travel-morocco-2026-arabic-guide"/>
+    <lastmod>2026-04-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://marocsphere.com/blog/travel-morocco-2026-arabic-guide</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marocsphere.com/blog/morocco-travel-2026-complete-guide"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marocsphere.com/blog/voyage-maroc-2026-guide-complet"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://marocsphere.com/blog/travel-morocco-2026-arabic-guide"/>
+    <lastmod>2026-04-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Auth Pages -->
+  <url>
+    <loc>https://marocsphere.com/auth/forgot-password</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  
+</urlset>

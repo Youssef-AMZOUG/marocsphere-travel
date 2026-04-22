@@ -1,0 +1,115 @@
+{
+  "project_name": "MarocSphere",
+  "theme": "Light",
+  "archetype": "Archetype 1 (Organic & Earthy) with Editorial Luxury twist",
+  "design_philosophy": "High-end, minimalist, trendy, and creative. Moroccan modernism: warm, inviting, premium, cultural but clean. Emphasize negative space, tactile surfaces, and editorial typography.",
+  "colors": {
+    "background": {
+      "default": "#F5F3EE",
+      "surface": "#FFFFFF",
+      "subtle": "#EFECE5"
+    },
+    "text": {
+      "primary": "#1C1917",
+      "secondary": "#57534E",
+      "muted": "#A8A29E",
+      "inverse": "#FFFFFF"
+    },
+    "primary": {
+      "DEFAULT": "#4A6984",
+      "hover": "#3B556C",
+      "foreground": "#FFFFFF"
+    },
+    "role_accents": {
+      "tourist": "#4A6984",
+      "guide": "#6B7A64",
+      "artisan": "#C17754",
+      "institution": "#725C70"
+    },
+    "border": {
+      "DEFAULT": "#E7E5DF",
+      "focus": "#4A6984"
+    }
+  },
+  "typography": {
+    "fonts": {
+      "heading": "'Playfair Display', serif",
+      "body": "'Manrope', sans-serif"
+    },
+    "scale": {
+      "h1": "text-4xl sm:text-5xl tracking-tight leading-tight font-heading font-medium",
+      "h2": "text-2xl sm:text-3xl tracking-tight font-heading font-medium",
+      "h3": "text-xl sm:text-2xl font-heading font-medium",
+      "h4": "text-lg font-heading font-medium",
+      "body": "text-base font-body leading-relaxed",
+      "small": "text-sm font-body text-secondary",
+      "overline": "text-xs font-body uppercase tracking-[0.2em] font-semibold text-muted"
+    }
+  },
+  "spacing_and_layout": {
+    "philosophy": "Generous spacing. Containers with borders must have internal padding (p-6 or p-8).",
+    "dashboard_grid": "Bento Grid Mode B (Control Room). grid-cols-1 md:grid-cols-3 lg:grid-cols-4 with gap-6. Every pixel utilized, h-full on children.",
+    "auth_layout": "Split screen or elegant centered modal. Left side image/texture, right side clean form with ample padding (p-12).",
+    "corners": "rounded-2xl for main cards, rounded-full for buttons and badges."
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#4A6984] text-white rounded-full px-6 py-2.5 hover:-translate-y-0.5 transition-transform shadow-sm font-medium text-sm",
+      "secondary": "bg-white text-[#1C1917] border border-[#E7E5DF] rounded-full px-6 py-2.5 hover:bg-[#F5F3EE] transition-colors text-sm",
+      "ghost": "text-[#57534E] hover:text-[#1C1917] hover:bg-[#EFECE5] rounded-full px-4 py-2 text-sm transition-colors"
+    },
+    "cards": {
+      "base": "bg-white rounded-2xl border border-[#E7E5DF] shadow-[0_4px_20px_rgb(0,0,0,0.03)] p-6 transition-all hover:shadow-[0_8px_30px_rgb(0,0,0,0.06)]"
+    },
+    "inputs": {
+      "base": "w-full bg-[#F5F3EE] border-transparent rounded-xl px-4 py-3 text-base focus:bg-white focus:border-[#4A6984] focus:ring-1 focus:ring-[#4A6984] transition-all placeholder:text-[#A8A29E]"
+    },
+    "glassmorphism": {
+      "base": "backdrop-blur-xl bg-white/70 border border-white/40 shadow-sm"
+    },
+    "sidebar": {
+      "base": "w-64 bg-[#F5F3EE] border-r border-[#E7E5DF] flex flex-col h-screen p-6",
+      "item_active": "bg-white shadow-sm text-[#4A6984] rounded-xl",
+      "item_inactive": "text-[#57534E] hover:bg-white/50 hover:text-[#1C1917] rounded-xl"
+    }
+  },
+  "motion": {
+    "hover": "transition-all duration-300 ease-out",
+    "entrance": "Staggered fade-up for list items and cards (framer-motion).",
+    "page": "Smooth opacity transitions."
+  },
+  "media": {
+    "landing_hero": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/1c3c5c79-ee24-4999-8f7c-5735c2d9eb89/images/afc702c72df72a586c14770dd062cfc38d1ea1ffe2a2a80fc04d6d9df77f39ae.png",
+      "description": "Moroccan Riad courtyard, minimalist design. Use for Landing Page hero background."
+    },
+    "auth_background": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/1c3c5c79-ee24-4999-8f7c-5735c2d9eb89/images/1c63c5844919c83862ee42209057dceca208a92abe4eafab81065865088e2235.png",
+      "description": "Abstract minimalist background, warm textured plaster wall. Use for Auth pages split-screen side."
+    },
+    "itinerary_hero": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/1c3c5c79-ee24-4999-8f7c-5735c2d9eb89/images/30bc3278ff94618992262924ebdb9b78b4957900c02928b035704567a569ca13.png",
+      "description": "Marrakech medina street at golden hour. Use as background for the 'AI-generated itinerary' hero card in the dashboard."
+    },
+    "guide_avatar_1": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/1c3c5c79-ee24-4999-8f7c-5735c2d9eb89/images/9bd3b477cac10def3298f26c78f4a6bcabc456b3a7f8f44526401124378cdcc0.png",
+      "description": "Portrait of a friendly Moroccan local guide. Use in the 'Guides near you' list."
+    },
+    "tourist_avatar": {
+      "url": "https://images.unsplash.com/photo-1663808201583-cc14d9f5b50d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdCUyMHNtaWxpbmclMjBndWlkZSUyMGF1dGhlbnRpY3xlbnwwfHx8fDE3NzU1NjUzODd8MA&ixlib=rb-4.1.0&q=85",
+      "description": "User profile avatar for the tourist."
+    }
+  },
+  "instructions_to_main_agent": [
+    "You are building Phase A: Tourist Dashboard + Auth UX + Landing Page refresh.",
+    "Install and use @phosphor-icons/react for icons.",
+    "Import 'Playfair Display' and 'Manrope' from Google Fonts in index.css.",
+    "Add data-testid attributes to all interactive elements (buttons, inputs, links).",
+    "Use standard Tailwind CSS classes. Do not use generic Shadcn Card/Section if it restricts creativity. Build custom layout components where needed for the dashboard bento grid.",
+    "Dashboard layout must have a left sidebar and a main content area with a breadcrumb.",
+    "Hero Itinerary Card: Must feature the `itinerary_hero` image with a dark gradient overlay so text is readable (bg-black/40). Include a glassmorphism badge for 'AI-Generated'.",
+    "Use framer-motion for simple page transitions and staggered list reveals.",
+    "Auth pages should be sleek: Split layout with the `auth_background` image on one side, and a clean, centered form on the other."
+  ],
+  "icons_library": "@phosphor-icons/react"
+}

@@ -1,0 +1,286 @@
+<analysis>**original_problem_statement**: The user is building MarocSphere, a comprehensive travel planning platform for Morocco. The current goal is to implement a robust Subscription System (freemium, Voyager, Nomade tiers), develop Partner and Admin dashboards, improve SEO (metadata, JSON-LD, sitemap) for top ranking, and enforce usage limits on AI features. The user's latest specific requirement is to restructure the monolithic backend into modular routers, remove Emergent-specific AI wrapper integrations, and set up a hybrid database architecture using Prisma/PostgreSQL for relational data (auth, wallets, transactions) and MongoDB for flexible data (chat, reviews).
+
+**User's preferred language**: English (INSTRUCT NEXT AGENT: Respond in English only, though note that the application itself has EN/FR/AR i18n support).
+
+**what currently exists?** 
+A fully functional React frontend and FastAPI backend utilizing MongoDB. The app features a trendy, multilingual (EN/FR/AR) responsive landing page, comprehensive SEO setup (meta tags, structured data, sitemap), and Stripe-based subscription workflows. Usage limits (daily itineraries and chat limits) are visually and functionally integrated into the frontend. The backend currently operates mainly out of a monolithic  with an auxiliary .
+
+**Last working item**: 
+- **Last item agent was working**: Restructuring the backend architecture. The agent was investigating the codebase to execute the user's instructions for Phase 0 (removing ), Phase 1 (splitting  into modular routers), and Phase 2 (integrating Prisma for PostgreSQL while keeping MongoDB).
+- **Status**: IN PROGRESS
+- **Agent Testing Done**: N
+- **Which testing method agent to use?**: Backend testing agent (Once refactoring is complete).
+- **User Testing Done**: N
+
+**All Pending/In progress Issue list**:
+Issue 1: (P0) Backend Architecture Refactoring & Hybrid DB Setup
+
+Issues Detail:
+- **Issue 1: Backend Architecture Refactoring & Hybrid DB Setup**
+   - **Attempted fixes**: The agent was about to start splitting  but the job ended. Earlier, the agent attempted to unzip the user's provided backend schema zip file, but the  command was missing from the environment.
+   - **Next debug checklist**: 
+     1. Remove  and related AI config files. 
+     2. Create  directory and extract auth, chat, itinerary, landmarks, etc., from  into separate router files. 
+     3. Setup Prisma with PostgreSQL for auth/wallets/transactions, while preserving the MongoDB connection for chat/reviews. 
+     4. (Optional) Install  (Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  unzip
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 157 kB of archives.
+After this operation, 502 kB of additional disk space will be used.
+Get:1 https://cloudfront.debian.net/debian bookworm/main arm64 unzip arm64 6.0-28 [157 kB]
+Fetched 157 kB in 0s (413 kB/s)
+Selecting previously unselected package unzip.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 46697 files and directories currently installed.)
+Preparing to unpack .../unzip_6.0-28_arm64.deb ...
+Unpacking unzip (6.0-28) ...
+Setting up unzip (6.0-28) ...) to extract and analyze the user's  if needed.
+   - **Why fix this issue and what will be achieved with the fix?**: This is an explicit user directive to transition the platform to a scalable, production-ready enterprise architecture. 
+   - **Status**: IN PROGRESS
+   - **Is recurring issue?**: N
+   - **Should Test frontend/backend/both after fix?**: Both (Heavy backend changes will likely break frontend API calls if not routed correctly).
+   - **Blocked on other issue**: None.
+
+**In progress Task List**:
+Task 1: (P0) Phase 0 & 1 - Remove emergentintegrations and modularize 
+Task 2: (P1) Phase 2 - Integrate Prisma + PostgreSQL
+Task 3: (P1) Admin Back-office functionality
+
+Task Detail:
+- **Task 1: Phase 0 & 1 - Remove emergentintegrations and modularize **
+   - **Where to resume**: . Delete  usage. Create separate router files in a  directory and import them into a cleaned-up  / main entry point.
+   - **What will be achieved with this?**: Better maintainability and scalable backend code structure.
+   - **Status**: IN PROGRESS
+   - **Should Test frontend/backend/both after fix?**: Backend
+   - **Blocked on something**: None
+
+- **Task 2: Phase 2 - Integrate Prisma + PostgreSQL**
+   - **Where to resume**: Run Prisma initialization in the backend. Update the data models for users, wallets, and transactions to PostgreSQL, while maintaining motor/asyncio calls for MongoDB (chat/reviews).
+   - **What will be achieved with this?**: A robust hybrid database architecture handling ACID transactions securely.
+   - **Status**: NOT STARTED
+   - **Should Test frontend/backend/both after fix?**: Backend
+   - **Blocked on something**: Blocked on Task 1 (needs clean modular routes first).
+
+- **Task 3: Admin Back-office functionality**
+   - **Where to resume**: . The file was created but needs implementation for partner verification queues, platform health monitoring, and content moderation flags.
+   - **What will be achieved with this?**: Fulfills the user's operational requirement for platform management.
+   - **Status**: IN PROGRESS
+   - **Should Test frontend/backend/both after fix?**: Frontend
+   - **Blocked on something**: None
+
+**Upcoming and Future Tasks**
+Upcoming Tasks:
+- (P1) Add  schema for user-generated content (SEO & Database).
+- (P1) Create OG images for social sharing and update canonical URLs.
+- (P2) Integrate CMI/PayZone payment gateway for Moroccan banks alongside Stripe (Phase 2 payments).
+
+Future Tasks:
+- (P2) Blockchain Passport of Good (Phase 2): Migrate the simulated database-backed credentials to Polygon L2 for partners.
+- (P2) National Dashboard (ONMT/CRT) for institutional view and analytics.
+
+**Completed work in this session**
+- Cleaned monolithic  by removing Emergent branding.
+- Landing Page UI revamp with modern styles and new hero/destination images.
+- Implemented robust  with English, French, and Arabic (RTL) support.
+- Built a comprehensive Subscription System (Plans, Stripe integration, MongoDB usage tracking).
+- Implemented Frontend usage limit locks (AI Concierge itineraries, Chat messages).
+- Comprehensive SEO enhancements (JSON-LD structured data, React Helmet, , ).
+- Created Blog, Partner Registration, and Partner Dashboard boilerplate pages.
+- Deployment agent health check passed successfully.
+
+**Earlier issues found/mentioned but not fixed**
+- Issue 1: 
+  - Debug checklist: Run Hit:1 https://cloudfront.debian.net/debian bookworm InRelease
+Get:2 https://deb.nodesource.com/node_20.x nodistro InRelease [12.1 kB]
+Get:3 https://cloudfront.debian.net/debian bookworm-updates InRelease [55.4 kB]
+Get:4 https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 InRelease [3005 B]
+Get:5 https://cloudfront.debian.net/debian-security bookworm-security InRelease [48.0 kB]
+Get:6 https://deb.nodesource.com/node_20.x nodistro/main arm64 Packages [13.7 kB]
+Get:7 https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0/multiverse amd64 Packages [109 kB]
+Get:8 https://cloudfront.debian.net/debian-security bookworm-security/main arm64 Packages [290 kB]
+Get:9 https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0/multiverse arm64 Packages [107 kB]
+Fetched 638 kB in 1s (764 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+unzip is already the newest version (6.0-28).
+0 upgraded, 0 newly installed, 0 to remove and 11 not upgraded. via  before trying to extract .
+  - Why to solve this issue and what will be achieved with this: Allows extraction of the user-provided backend schema architecture.
+  - Should Test frontend/backend/both after fix: NA
+  - Is recurring issue? N
+
+**Known issue recurrence from previous fork**
+- Issue recurrence in previous fork: Overwriting  with entire landing page code, breaking the SPA React root. 
+- Recurrence count: 0 in this session (The agent successfully recognized and avoided it).
+- Status: RESOLVED (Keep in mind for future HTML edits).
+
+**Code Architecture**
+
+
+**Key Technical Concepts**
+- Frontend: React.js, React Router, TailwindCSS,  (Localization),  (SEO).
+- Backend: FastAPI, PyJWT (Auth), Stripe Python SDK.
+- Database: Transitioning to Hybrid — PostgreSQL (via Prisma) + MongoDB (via Motor).
+
+**key DB schema**
+- : { , , , , ,  } (Slated for PostgreSQL)
+- : { , , ,  }
+- : { , , ,  }
+- : { , Mon Mar 23 16:55:31 UTC 2026, ,  }
+
+**changes in tech stack**
+- Adding **Prisma** and **PostgreSQL** to the stack (per user instruction) for transactional data.
+- Removing **emergentintegrations** from the backend.
+
+**All files of reference**
+- : Must be broken down into modular routes.
+- : Controls language configurations.
+-  & : Controls UI-level freemium usage gating.
+- : Maintains roadmap and task checklist.
+
+**Areas that need refactoring**:
+- : Extremely critical. Must be split into  (e.g., , , , ).
+
+**key api endpoints**
+-  & 
+- 
+- 
+-  & 
+
+**Critical Info for New Agent**
+- **Architecture Shift:** The user has explicitly demanded a backend rewrite: **Phase 0:** Remove . **Phase 1:** Split  into modular routers. **Phase 2:** Integrate Prisma and PostgreSQL for auth/wallets while keeping MongoDB for chat/reviews. Prioritize this over frontend work.
+- **Missing CLI tools:** The environment is missing UnZip 6.00 of 20 April 2009, by Debian. Original by Info-ZIP.
+
+Usage: unzip [-Z] [-opts[modifiers]] file[.zip] [list] [-x xlist] [-d exdir]
+  Default action is to extract files in list, except those in xlist, to exdir;
+  file[.zip] may be a wildcard.  -Z => ZipInfo mode ("unzip -Z" for usage).
+
+  -p  extract files to pipe, no messages     -l  list files (short format)
+  -f  freshen existing files, create none    -t  test compressed archive data
+  -u  update files, create if necessary      -z  display archive comment only
+  -v  list verbosely/show version info       -T  timestamp archive to latest
+  -x  exclude files that follow (in xlist)   -d  extract files into exdir
+modifiers:
+  -n  never overwrite existing files         -q  quiet mode (-qq => quieter)
+  -o  overwrite files WITHOUT prompting      -a  auto-convert any text files
+  -j  junk paths (do not make directories)   -aa treat ALL files as text
+  -U  use escapes for all non-ASCII Unicode  -UU ignore any Unicode fields
+  -C  match filenames case-insensitively     -L  make (some) names lowercase
+  -X  restore UID/GID info                   -V  retain VMS version numbers
+  -K  keep setuid/setgid/tacky permissions   -M  pipe through "more" pager
+See "unzip -hh" or unzip.txt for more help.  Examples:
+  unzip data1 -x joe   => extract all files except joe from zipfile data1.zip
+  unzip -p foo | more  => send contents of foo.zip via pipe into program more
+  unzip -fo foo ReadMe => quietly replace existing ReadMe if archive file newer. Install it if you need to access the user's zipped artifact.
+- **Payments:** Stripe is currently operating with test keys in the . Maintain this abstraction as CMI (Moroccan gateway) will be added later.
+
+**documents and test reports created in this job**
+- 
+-  (Updated regularly)
+
+**Last 10 User Messages and any pending HUMAN messages**
+1. **User**: Asked to confirm plan via ask_human. -> *Completed*
+2. **User**: Instructed to remove made by emergent tags, make UI clean/trendy, and improve SEO. -> *Completed*
+3. **User**: Provided specific images for destinations and the hero section. -> *Completed*
+4. **User**: Shared highly detailed Freemium feature matrices and roadmap (Phase 1 Stripe, Phase 2 CMI, Phase 2 Blockchain). -> *Completed (Stripe & tracking implemented)*
+5. **User**: Clarified exact build order starting with Subscription System, followed by Dashboards. -> *Completed*
+6. **User**: Run health check for deployment. -> *Completed (Passed)*
+7. **User**: Requested #1 SEO ranking via keywords, structured data, and AI/LLM AEO optimization. -> *Completed*
+8. **User**: Listed 4 specific tasks: integrate usage limits, build Partner dashboard, create SEO blog pages, add reviews schema. -> *Completed (first 3), Review schema pending*
+9. **User**: Uploaded  and requested personalization of the backend schema. -> *Attempted (unzip failed)*
+10. **User**: Explicit directive for backend refactor: Phase 0 (remove emergentintegrations), Phase 1 (split server.py), Phase 2 (hybrid DB with Prisma/PostgreSQL). -> **PENDING/IN PROGRESS**
+
+**Project Health Check:**
+- Broken: UnZip 6.00 of 20 April 2009, by Debian. Original by Info-ZIP.
+
+Usage: unzip [-Z] [-opts[modifiers]] file[.zip] [list] [-x xlist] [-d exdir]
+  Default action is to extract files in list, except those in xlist, to exdir;
+  file[.zip] may be a wildcard.  -Z => ZipInfo mode ("unzip -Z" for usage).
+
+  -p  extract files to pipe, no messages     -l  list files (short format)
+  -f  freshen existing files, create none    -t  test compressed archive data
+  -u  update files, create if necessary      -z  display archive comment only
+  -v  list verbosely/show version info       -T  timestamp archive to latest
+  -x  exclude files that follow (in xlist)   -d  extract files into exdir
+modifiers:
+  -n  never overwrite existing files         -q  quiet mode (-qq => quieter)
+  -o  overwrite files WITHOUT prompting      -a  auto-convert any text files
+  -j  junk paths (do not make directories)   -aa treat ALL files as text
+  -U  use escapes for all non-ASCII Unicode  -UU ignore any Unicode fields
+  -C  match filenames case-insensitively     -L  make (some) names lowercase
+  -X  restore UID/GID info                   -V  retain VMS version numbers
+  -K  keep setuid/setgid/tacky permissions   -M  pipe through "more" pager
+See "unzip -hh" or unzip.txt for more help.  Examples:
+  unzip data1 -x joe   => extract all files except joe from zipfile data1.zip
+  unzip -p foo | more  => send contents of foo.zip via pipe into program more
+  unzip -fo foo ReadMe => quietly replace existing ReadMe if archive file newer package missing in the bash environment. Backend might temporarily break during the upcoming router split.
+- Mocked: Real AI calls are mocked or strictly limited; Chat UI currently hardcoded logic rather than WebSockets.
+
+**3rd Party Integrations**
+- Stripe (Payments) — uses User API Key (Test mode currently in ).
+- OpenAI GPT-4o — Uses Emergent LLM Key (Note: User explicitly requested removing  in Phase 0, so coordinate this transition carefully).
+-  (Translations)
+
+**Testing status**
+- Testing agent used after significant changes: YES (Frontend testing agent used, 100% pass)
+- Troubleshoot agent used after agent stuck in loop: NO
+- Test files created: 
+- Known regressions: None currently, but high risk of regressions during the upcoming backend modularization.
+
+**Credentials to test flow:**
+- email: 
+- password: 
+
+**What agent forgot to execute**
+The agent attempted to extract a user-uploaded zip but failed because UnZip 6.00 of 20 April 2009, by Debian. Original by Info-ZIP.
+
+Usage: unzip [-Z] [-opts[modifiers]] file[.zip] [list] [-x xlist] [-d exdir]
+  Default action is to extract files in list, except those in xlist, to exdir;
+  file[.zip] may be a wildcard.  -Z => ZipInfo mode ("unzip -Z" for usage).
+
+  -p  extract files to pipe, no messages     -l  list files (short format)
+  -f  freshen existing files, create none    -t  test compressed archive data
+  -u  update files, create if necessary      -z  display archive comment only
+  -v  list verbosely/show version info       -T  timestamp archive to latest
+  -x  exclude files that follow (in xlist)   -d  extract files into exdir
+modifiers:
+  -n  never overwrite existing files         -q  quiet mode (-qq => quieter)
+  -o  overwrite files WITHOUT prompting      -a  auto-convert any text files
+  -j  junk paths (do not make directories)   -aa treat ALL files as text
+  -U  use escapes for all non-ASCII Unicode  -UU ignore any Unicode fields
+  -C  match filenames case-insensitively     -L  make (some) names lowercase
+  -X  restore UID/GID info                   -V  retain VMS version numbers
+  -K  keep setuid/setgid/tacky permissions   -M  pipe through "more" pager
+See "unzip -hh" or unzip.txt for more help.  Examples:
+  unzip data1 -x joe   => extract all files except joe from zipfile data1.zip
+  unzip -p foo | more  => send contents of foo.zip via pipe into program more
+  unzip -fo foo ReadMe => quietly replace existing ReadMe if archive file newer wasn't installed. The agent simply moved on instead of installing UnZip 6.00 of 20 April 2009, by Debian. Original by Info-ZIP.
+
+Usage: unzip [-Z] [-opts[modifiers]] file[.zip] [list] [-x xlist] [-d exdir]
+  Default action is to extract files in list, except those in xlist, to exdir;
+  file[.zip] may be a wildcard.  -Z => ZipInfo mode ("unzip -Z" for usage).
+
+  -p  extract files to pipe, no messages     -l  list files (short format)
+  -f  freshen existing files, create none    -t  test compressed archive data
+  -u  update files, create if necessary      -z  display archive comment only
+  -v  list verbosely/show version info       -T  timestamp archive to latest
+  -x  exclude files that follow (in xlist)   -d  extract files into exdir
+modifiers:
+  -n  never overwrite existing files         -q  quiet mode (-qq => quieter)
+  -o  overwrite files WITHOUT prompting      -a  auto-convert any text files
+  -j  junk paths (do not make directories)   -aa treat ALL files as text
+  -U  use escapes for all non-ASCII Unicode  -UU ignore any Unicode fields
+  -C  match filenames case-insensitively     -L  make (some) names lowercase
+  -X  restore UID/GID info                   -V  retain VMS version numbers
+  -K  keep setuid/setgid/tacky permissions   -M  pipe through "more" pager
+See "unzip -hh" or unzip.txt for more help.  Examples:
+  unzip data1 -x joe   => extract all files except joe from zipfile data1.zip
+  unzip -p foo | more  => send contents of foo.zip via pipe into program more
+  unzip -fo foo ReadMe => quietly replace existing ReadMe if archive file newer via  (Reading package lists...
+Building dependency tree...
+Reading state information...
+unzip is already the newest version (6.0-28).
+0 upgraded, 0 newly installed, 0 to remove and 11 not upgraded.). The agent also accepted the user's instruction to completely remove  (Phase 0) without fully questioning the implications on existing LLM functionality, so the new agent must handle this removal/transition gracefully.</analysis>

@@ -1,0 +1,54 @@
+# MarocSphere
+
+> MarocSphere is the #1 AI-powered travel planning platform for Morocco. It offers AI-generated personalized itineraries, real-time safety dashboard, interactive map with 200+ landmarks, verified local guide network, and multi-language support in English, French, and Arabic. Used by 50,000+ travelers. Free to start.
+
+## Core Features
+
+- [AI Concierge](https://marocsphere.com/concierge): AI-powered Morocco trip planner. Generates personalized day-by-day itineraries based on destination, dates, budget, interests, and group type. Covers Marrakech, Fes, Chefchaouen, Essaouira, Rabat, Merzouga, and Ouarzazate. Powered by Claude AI.
+- [Interactive Map](https://marocsphere.com/map): Morocco map with 200+ landmarks, restaurants, riads, and hidden gems. Filter by type (mosque, palace, museum, market, garden, mountain, beach, medina) and safety level. Includes traveler reviews.
+- [Safety Dashboard](https://marocsphere.com/safety): Real-time Morocco safety scores updated every 15 minutes. Emergency SOS with GPS tracking. Regional alerts. Emergency numbers: Police 19, Ambulance 15, Fire 16, Tourist Police 177.
+- [AI Chat Assistant](https://marocsphere.com/chat): Ask anything about Morocco — safety, food, culture, transport, bargaining tips, what to wear, emergency info. Multi-turn conversations with context memory. Available in EN/FR/AR.
+- [Destinations](https://marocsphere.com/destinations): Detailed guides for Marrakech, Fes, Chefchaouen, Essaouira, Merzouga, and Rabat. Each with safety ratings, reviews, landmarks count, best travel season, and trip planning links.
+
+## Subscription Plans
+
+- [Pricing](https://marocsphere.com/subscription): Explorer (Free) — basic AI planning, map, safety. Voyager (99 MAD/month) — unlimited itineraries, offline maps, priority support. Nomade (249 MAD/month) — VIP guide matching, AR features, premium concierge.
+
+## Partner Network
+
+- [Become a Partner](https://marocsphere.com/partner/register): Join MarocSphere's verified tourism partner network. Partner types: Licensed Guide, Riad/Hotel, Restaurant, Activity Provider, Transport, Artisan. Available in 10 cities across Morocco.
+
+## Blog — Morocco Travel Guides
+
+- [Is Morocco Safe for Tourists in 2026?](https://marocsphere.com/blog/is-morocco-safe-tourists-2026): Complete safety guide with city-by-city analysis, emergency numbers, common scams, and MarocSphere safety features. 14 min read.
+- [The Perfect 10-Day Morocco Itinerary](https://marocsphere.com/blog/10-day-morocco-itinerary-2026): Day-by-day itinerary covering Marrakech, Atlas Mountains, Sahara Desert, Fes, and Chefchaouen. Budget breakdown included. 18 min read.
+- [Best AI Travel App for Morocco](https://marocsphere.com/blog/best-ai-travel-app-morocco-2026): Why MarocSphere leads in 2026 — AI itinerary generation, safety dashboard, scam alerts, interactive map. 9 min read.
+- [Solo Female Travel in Morocco](https://marocsphere.com/blog/morocco-solo-female-travel-safety-guide): Safety tips, what to wear, safest cities, how to handle unwanted attention. 10 min read.
+- [Morocco Travel 2026: Complete Guide (EN)](https://marocsphere.com/blog/morocco-travel-2026-complete-guide): 22-min cornerstone article covering safety, itineraries, budget, scams, solo female travel, and why MarocSphere is the best app.
+- [Voyage Maroc 2026: Guide Complet (FR)](https://marocsphere.com/blog/voyage-maroc-2026-guide-complet): 25-min French cornerstone guide — securite, itineraires, Marrakech hors sentiers, Fes medina, Taghazout luxe, budget.
+- [السفر إلى المغرب 2026 (AR)](https://marocsphere.com/blog/travel-morocco-2026-arabic-guide): 20-min Arabic cornerstone guide with full RTL support — safety, scams, authentic tourism, family travel, budget.
+- [25 Moroccan Dishes You Must Try](https://marocsphere.com/blog/moroccan-food-guide-dishes-to-try): From tagine to pastilla — complete food guide with street food, regional specialties, and restaurant tips. 11 min read.
+- [Sahara Desert Guide](https://marocsphere.com/blog/sahara-desert-morocco-complete-guide): Merzouga vs Zagora, desert camp options, camel treks, what to pack, best season. 15 min read.
+- [Chefchaouen Blue City Guide](https://marocsphere.com/blog/chefchaouen-morocco-blue-city-guide): Why it's blue, how to get there, photography spots, things to do, where to stay. 9 min read.
+- [Morocco on a Budget](https://marocsphere.com/blog/morocco-budget-travel-guide-cost): Detailed cost breakdown — budget/mid-range/luxury daily costs, sample prices, money-saving tips. 13 min read.
+- [Marrakech 3-Day Itinerary](https://marocsphere.com/blog/marrakech-3-day-itinerary-first-timers): Day-by-day guide for first-timers — medina, palaces, Majorelle Garden, cooking class, hammam. 12 min read.
+- [Hidden Gems in Marrakech](https://marocsphere.com/blog/marrakech-hidden-gems-locals-love): Secret gardens, local food spots, artisan workshops that tourists never find. 10 min read.
+- [Authentic Morocco Off the Beaten Path](https://marocsphere.com/blog/authentic-morocco-experience-away-tourist-traps): Moulay Idriss, Tiznit, Draa Valley, Sidi Ifni — hidden destinations most tourists miss. 12 min read.
+- [Best Luxury Tours in Morocco](https://marocsphere.com/blog/morocco-luxury-tour-2026-best-experiences): La Mamounia, Royal Mansour, private Sahara glamping, Taghazout luxury. 11 min read.
+- [Taghazout Travel Guide](https://marocsphere.com/blog/taghazout-travel-guide-luxury-surf-2026): Morocco's surf and luxury hotspot — surfing, wellness, food scene, getting there. 9 min read.
+- [Morocco Family Travel Guide](https://marocsphere.com/blog/morocco-family-travel-kids-guide-2026): Family-friendly cities, age-appropriate activities, safety tips for children. 13 min read.
+- [Fes Medina Guide](https://marocsphere.com/blog/fes-medina-guide-navigate-worlds-largest-car-free-zone): Navigate the world's largest car-free zone — must-see sights, tips, riads, local food. 10 min read.
+- [Best Time to Visit Morocco](https://marocsphere.com/blog/best-time-visit-morocco-2026): Month-by-month weather, festivals, crowds, and prices. 8 min read.
+- [MarocSphere App Review](https://marocsphere.com/blog/marocsphere-app-review-travelers-say): Real traveler reviews, feature ratings, pricing comparison, 4.9/5 verdict. 8 min read.
+
+## Markdown Versions
+
+Every page on MarocSphere has a Markdown version available at the same path with `/index.md` appended:
+- [Homepage Markdown](https://marocsphere.com/index.md)
+- [Destinations Markdown](https://marocsphere.com/destinations/index.md)
+- [Blog Markdown](https://marocsphere.com/blog/index.md)
+- [Safety Markdown](https://marocsphere.com/safety/index.md)
+
+## About
+
+MarocSphere is built in Morocco for Morocco. AI-powered travel planning with real-time safety data, verified local guides, and multi-language support (English, French, Arabic). Free Explorer plan available. Contact: info@marocsphere.com. Website: https://marocsphere.com

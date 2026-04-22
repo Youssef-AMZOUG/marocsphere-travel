@@ -1,0 +1,352 @@
+/* MarocSphere Global Styles */
+
+/* Hero video/image overlay */
+.hero-overlay {
+    background: linear-gradient(180deg, 
+        rgba(12,10,9,0.7) 0%, 
+        rgba(12,10,9,0.4) 40%,
+        rgba(12,10,9,0.5) 100%);
+}
+
+/* Glass morphism effect */
+.glass {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-dark {
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+/* Gradient text */
+.gradient-text {
+    background: linear-gradient(135deg, #E2725B 0%, #F5C1B7 50%, #D4A017 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Shine animation */
+.shine {
+    position: relative;
+    overflow: hidden;
+}
+.shine::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+        to right,
+        rgba(255,255,255,0) 0%,
+        rgba(255,255,255,0.1) 50%,
+        rgba(255,255,255,0) 100%
+    );
+    transform: rotate(30deg);
+    animation: shine 4s infinite;
+}
+@keyframes shine {
+    0% { transform: translateX(-100%) rotate(30deg); }
+    100% { transform: translateX(100%) rotate(30deg); }
+}
+
+/* Moroccan pattern background */
+.moroccan-pattern {
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0L60 30L30 60L0 30z' fill='%23E2725B' fill-opacity='0.03'/%3E%3C/svg%3E");
+}
+
+/* Card hover effects */
+.card-hover {
+    transition: all 0.3s ease;
+}
+.card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px -5px rgba(12, 10, 9, 0.1), 0 8px 10px -6px rgba(12, 10, 9, 0.1);
+}
+
+/* Interest pill animation */
+.pill-selected {
+    animation: pill-pop 0.2s ease-out;
+}
+@keyframes pill-pop {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.08); }
+    100% { transform: scale(1); }
+}
+
+/* Chat typing dots */
+.typing-dot {
+    animation: typing-bounce 1.4s infinite;
+}
+.typing-dot:nth-child(2) { animation-delay: 0.15s; }
+.typing-dot:nth-child(3) { animation-delay: 0.3s; }
+@keyframes typing-bounce {
+    0%, 60%, 100% { transform: translateY(0); }
+    30% { transform: translateY(-6px); }
+}
+
+/* Horizontal scroll snap */
+.scroll-snap-x {
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+.scroll-snap-x > * {
+    scroll-snap-align: center;
+}
+
+/* Button press effect */
+.btn-press:active {
+    transform: scale(0.97);
+    transition: transform 0.1s ease;
+}
+
+/* Safety gauge */
+.gauge-circle {
+    transition: stroke-dashoffset 1.5s ease-out;
+}
+
+/* Map marker pulse */
+.marker-pulse {
+    animation: marker-ring 2s ease-out infinite;
+}
+@keyframes marker-ring {
+    0% { box-shadow: 0 0 0 0 rgba(226, 114, 91, 0.4); }
+    100% { box-shadow: 0 0 0 12px rgba(226, 114, 91, 0); }
+}
+
+/* Bottom nav hide on scroll */
+.bottom-nav-hidden {
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+.bottom-nav-visible {
+    transform: translateY(0);
+    transition: transform 0.3s ease;
+}
+
+/* Floating animation */
+.floating {
+    animation: floating 6s ease-in-out infinite;
+}
+@keyframes floating {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+}
+
+/* Glow effect */
+.glow {
+    box-shadow: 0 0 40px rgba(226, 114, 91, 0.3);
+}
+
+.glow-saffron {
+    box-shadow: 0 0 40px rgba(212, 160, 23, 0.25);
+}
+
+/* Magnetic hover */
+.magnetic:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Gradient border */
+.gradient-border {
+    position: relative;
+    background: white;
+    border-radius: 1rem;
+}
+.gradient-border::before {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    border-radius: 1rem;
+    padding: 2px;
+    background: linear-gradient(135deg, #E2725B, #D4A017);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+
+/* Text reveal animation */
+.text-reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: textReveal 0.8s ease forwards;
+}
+@keyframes textReveal {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Staggered children reveal */
+.stagger-reveal > * {
+    opacity: 0;
+    transform: translateY(20px);
+}
+.stagger-reveal.revealed > *:nth-child(1) { animation: childReveal 0.6s ease 0.1s forwards; }
+.stagger-reveal.revealed > *:nth-child(2) { animation: childReveal 0.6s ease 0.2s forwards; }
+.stagger-reveal.revealed > *:nth-child(3) { animation: childReveal 0.6s ease 0.3s forwards; }
+.stagger-reveal.revealed > *:nth-child(4) { animation: childReveal 0.6s ease 0.4s forwards; }
+.stagger-reveal.revealed > *:nth-child(5) { animation: childReveal 0.6s ease 0.5s forwards; }
+.stagger-reveal.revealed > *:nth-child(6) { animation: childReveal 0.6s ease 0.6s forwards; }
+@keyframes childReveal {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Noise texture overlay */
+.noise::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+    opacity: 0.03;
+    pointer-events: none;
+    mix-blend-mode: overlay;
+}
+
+/* Smooth image loading */
+.img-loading {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+}
+@keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+}
+
+/* Interactive card */
+.interactive-card {
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.interactive-card:hover {
+    transform: translateY(-8px) scale(1.01);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+}
+
+/* Badge styles */
+.badge-safe {
+    background: linear-gradient(135deg, #10B981, #059669);
+}
+.badge-caution {
+    background: linear-gradient(135deg, #F59E0B, #D97706);
+}
+
+/* Focus states */
+input:focus, textarea:focus, select:focus, button:focus {
+    outline: none;
+    ring: 2px;
+    ring-color: rgba(226, 114, 91, 0.5);
+}
+
+/* Selection color */
+::selection {
+    background: rgba(226, 114, 91, 0.3);
+    color: #1E3A5F;
+}
+
+/* RTL Support for Arabic */
+[dir="rtl"] {
+    text-align: right;
+}
+
+[dir="rtl"] .flex {
+    direction: rtl;
+}
+
+[dir="rtl"] .ml-2 {
+    margin-left: 0;
+    margin-right: 0.5rem;
+}
+
+[dir="rtl"] .mr-2 {
+    margin-right: 0;
+    margin-left: 0.5rem;
+}
+
+[dir="rtl"] .pl-4 {
+    padding-left: 0;
+    padding-right: 1rem;
+}
+
+[dir="rtl"] .pr-4 {
+    padding-right: 0;
+    padding-left: 1rem;
+}
+
+[dir="rtl"] .text-left {
+    text-align: right;
+}
+
+[dir="rtl"] .text-right {
+    text-align: left;
+}
+
+/* RTL Scroll */
+[dir="rtl"] .scroll-snap-x {
+    direction: rtl;
+}
+
+/* RTL animations */
+[dir="rtl"] .translate-x-full {
+    --tw-translate-x: -100%;
+}
+
+[dir="rtl"] .-translate-x-full {
+    --tw-translate-x: 100%;
+}
+
+/* Screen reader only - for SEO hidden content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+/* Skip to content link for accessibility */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #E2725B;
+    color: white;
+    padding: 8px 16px;
+    z-index: 100;
+    transition: top 0.3s;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+/* Focus visible for keyboard navigation */
+:focus-visible {
+    outline: 2px solid #E2725B;
+    outline-offset: 2px;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
